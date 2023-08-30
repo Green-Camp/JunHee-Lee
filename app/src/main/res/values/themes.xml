@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="Theme.GreenCamp2" parent="android:Theme.Material.Light.NoActionBar" />
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GreenCamp2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/shoppi_purple</item>
+        <item name="colorPrimaryVariant">@color/shoppi_gradient_purple</item>
+        <item name="colorOnPrimary">@color/shoppi_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/shoppi_pink_01</item>
+        <item name="colorSecondaryVariant">@color/shoppi_pink_02</item>
+        <item name="colorOnSecondary">@color/shoppi_black_01</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.GreenCamp2.Splash">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
 </resources>
