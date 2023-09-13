@@ -1,4 +1,4 @@
-package com.shoppi.app
+package com.example.greencamp2.main.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

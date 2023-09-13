@@ -1,4 +1,4 @@
-package com.example.greencamp2.main
+package com.example.greencamp2.main.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
